@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: falnyr/aws-sam-deploy-action@v1.3.0
+    - uses: IceMediaDialog/aws-sam-deploy@v1.0.2
       env:
         TEMPLATE: 'template.yaml'
         AWS_STACK_NAME: my-serverless-application
@@ -26,6 +26,7 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_DEPLOY_BUCKET: ${{ secrets.AWS_DEPLOY_BUCKET }}
+        CONFIG_FILE: 'config-file.toml'
 ```
 
 ### Environment Variables
