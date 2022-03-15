@@ -1,6 +1,6 @@
-name: 'AWS SAM Deploy'
+name: 'AWS SAM Deploy with config file'
 description: 'Deploys AWS SAM Stack'
-author: 'Jan Alfred Richter <falnyr@gmail.com>'
+author: 'Jobin Mathew <jobin.mathew@icemedial.com.au>'
 branding:
   icon: 'upload-cloud'
   color: 'orange'
