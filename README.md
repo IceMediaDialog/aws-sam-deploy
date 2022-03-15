@@ -60,6 +60,8 @@ jobs:
 * `TAGS` - [Optional]. Tags to assign.
   * Type: `string | list[string]`
   * Syntax: `Environment=prod` `Name=infrastructure `
+* `CONFIG_FILE` - [Optional]. configuration file.
+  * Type: `string`
 
 ### License
 
